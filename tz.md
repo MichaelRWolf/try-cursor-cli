@@ -11,7 +11,7 @@
 
 ### 2025-03-30/2025-10-26
 
-Start Daylight Time: Central Europe (+01 -> +02)
+2025-03-30 - Start Daylight Time: Central Europe - (+01 -> +02)
 
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
 | (Z)   | Phoenix (-07) | East Coast (-04) | Malaga (+02) | Vienna (+02) |
@@ -25,7 +25,7 @@ Start Daylight Time: Central Europe (+01 -> +02)
 
 ### 2025-10-26/2025-11-02
 
-Stop Daylight Time: Central Europe (+02 -> +01)
+2025-10-26 - Stop Daylight Time: Central Europe - (+02 -> +01)
 
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
 | (Z)   | Phoenix (-07) | East Coast (-05) | Malaga (+01) | Vienna (+01) |
@@ -39,7 +39,7 @@ Stop Daylight Time: Central Europe (+02 -> +01)
 
 ### 2025-11-02/2026-03-08
 
-No timezone changes (winter period)
+2025-11-02 - Stop Daylight Time: East Coast - (-04 -> -05)
 
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
 | (Z)   | Phoenix (-07) | East Coast (-05) | Malaga (+01) | Vienna (+01) |

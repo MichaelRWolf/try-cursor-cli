@@ -18,6 +18,10 @@
 - `2025-11-02 - Stop Daylight Time: East Coast - (-04 -> -05)`
 - `2025-11-02 - No timezone changes (winter period)`
 
+**Note:** For DST transitions:
+- **Start DST**: Standard time -> Daylight time (e.g., -05 -> -04)
+- **Stop DST**: Daylight time -> Standard time (e.g., -04 -> -05)
+
 ### **3. Table Structure**
 ```
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
