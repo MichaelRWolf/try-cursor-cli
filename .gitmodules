@@ -1,0 +1,3 @@
+[submodule "upsoil-soul-nextjs"]
+	path = upsoil-soul-nextjs
+	url = https://github.com/MichaelRWolf/upsoil-soul-nextjs.git
