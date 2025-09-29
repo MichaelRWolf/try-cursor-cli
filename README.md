@@ -21,6 +21,47 @@ cursor-agent --version
 - **Source Website:** https://www.upsoilandsoul.com/
 - **Project Goal:** Complete rewrite of the Upsoil & Soul Farm & Campground website
 
+## Running & Installing Project
+
+### Running the Website Locally
+
+#### Development Server
+```bash
+# Navigate to the Next.js project directory
+cd upsoil-soul-nextjs
+
+# Install dependencies (if not already done)
+npm install
+
+# Start the development server
+npm run dev
+```
+
+#### Access the Website
+- **Local Development:** http://localhost:3000
+- **Alternative Port:** http://localhost:3001 (if port 3000 is in use)
+- **Network Access:** http://192.168.1.144:3000 (accessible from other devices on your network)
+
+#### Debugging the Site
+```bash
+# Check if the server is running
+curl -I http://localhost:3000
+
+# View development logs
+# The terminal will show compilation status and any errors
+
+# Hot reloading is enabled - changes to files will automatically refresh the browser
+```
+
+#### Production Build (Optional)
+```bash
+# Create optimized production build
+npm run build
+
+# Start production server
+npm start
+```
+
 ### Technology Stacks
 
 #### Original Tech Stack
