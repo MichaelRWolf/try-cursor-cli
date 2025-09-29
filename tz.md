@@ -11,6 +11,8 @@
 
 ### 2025-03-30/2025-10-26
 
+Start Daylight Time: Central Europe (+01 -> +02)
+
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
 | (Z)   | Phoenix (-07) | East Coast (-04) | Malaga (+02) | Vienna (+02) |
 |-------|---------------|------------------|--------------|--------------|
@@ -22,6 +24,22 @@
 | 19:00 | 12:00 PM      | 3:00 PM          | 9:00 PM      | 9:00 PM      |
 
 ### 2025-10-26/2025-11-02
+
+Stop Daylight Time: Central Europe (+02 -> +01)
+
+| UTC   | Diana         | Michael          | Nitsan       | Gregor       |
+| (Z)   | Phoenix (-07) | East Coast (-05) | Malaga (+01) | Vienna (+01) |
+|-------|---------------|------------------|--------------|--------------|
+| 14:00 | 7:00 AM       | 9:00 AM          | 3:00 PM      | 3:00 PM      |
+| 15:00 | 8:00 AM       | 10:00 AM         | 4:00 PM      | 4:00 PM      |
+| 16:00 | 9:00 AM       | 11:00 AM         | 5:00 PM      | 5:00 PM      |
+| 17:00 | 10:00 AM      | 12:00 PM         | 6:00 PM      | 6:00 PM      |
+| 18:00 | 11:00 AM      | 1:00 PM          | 7:00 PM      | 7:00 PM      |
+| 19:00 | 12:00 PM      | 2:00 PM          | 8:00 PM      | 8:00 PM      |
+
+### 2025-11-02/2026-03-08
+
+No timezone changes (winter period)
 
 | UTC   | Diana         | Michael          | Nitsan       | Gregor       |
 | (Z)   | Phoenix (-07) | East Coast (-05) | Malaga (+01) | Vienna (+01) |
