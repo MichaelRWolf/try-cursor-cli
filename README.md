@@ -20,7 +20,25 @@ cursor-agent --version
 ### Original Website Reference
 - **Source Website:** https://www.upsoilandsoul.com/
 - **Project Goal:** Complete rewrite of the Upsoil & Soul Farm & Campground website
-- **Technology Stack:** Next.js 15.5.4 + TypeScript + Tailwind CSS
+
+### Technology Stacks
+
+#### Original Tech Stack
+- **Frontend:** Vanilla HTML5, CSS3, JavaScript (ES6+)
+- **Styling:** Custom CSS with Flexbox/Grid, Google Fonts (Inter)
+- **Icons:** Font Awesome 6.0.0
+- **Images:** Unsplash CDN
+- **Responsive:** Mobile-first design with media queries
+- **Performance:** Lazy loading, intersection observers, optimized animations
+
+#### Target Tech Stack
+- **Framework:** Next.js 15.5.4 with App Router
+- **Language:** TypeScript for type safety
+- **Styling:** Tailwind CSS for utility-first styling
+- **Fonts:** Inter font family via Google Fonts
+- **Images:** Next.js Image optimization + Unsplash integration
+- **Deployment:** Vercel-ready with static generation
+- **Performance:** Built-in optimizations, code splitting, and Core Web Vitals
 
 ## Project Tasks
 
