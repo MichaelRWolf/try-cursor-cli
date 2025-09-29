@@ -126,3 +126,73 @@ npm start
 - ✅ **GitHub repository synchronized** with all changes
 - ✅ **Complete documentation** and project analysis
 
+## Development Workflow
+
+### Repository Structure
+This project uses a **submodule architecture** with two separate GitHub repositories:
+
+1. **Main Repository** (`try-cursor-cli`): Documentation, planning, and project management
+2. **Website Repository** (`upsoil-soul-nextjs`): Next.js website implementation
+
+### Working with Submodules
+
+#### Initial Setup
+```bash
+# Clone the main repository with submodules
+git clone --recursive https://github.com/MichaelRWolf/try-cursor-cli.git
+cd try-cursor-cli
+
+# Or if already cloned, initialize submodules
+git submodule update --init --recursive
+```
+
+#### Development Workflow
+
+**For Website Changes:**
+```bash
+# Navigate to the website submodule
+cd upsoil-soul-nextjs
+
+# Make changes to website files
+# Edit src/components/*.tsx, etc.
+
+# Commit changes in the submodule
+git add .
+git commit -m "Update website component"
+git push origin main
+
+# Update main repository to reference new submodule commit
+cd ..
+git add upsoil-soul-nextjs
+git commit -m "Update website submodule"
+git push origin main
+```
+
+**For Documentation Changes:**
+```bash
+# Work in main repository
+# Edit README.md, plan.md, etc.
+
+git add .
+git commit -m "Update project documentation"
+git push origin main
+```
+
+#### Syncing Between Environments
+```bash
+# Pull latest changes from both repositories
+git pull origin main
+git submodule update --remote
+
+# Push changes to both repositories
+git push origin main
+cd upsoil-soul-nextjs && git push origin main
+```
+
+### Benefits of This Structure
+- **Separation of Concerns**: Documentation vs. implementation
+- **Independent Development**: Website can be developed separately
+- **Version Control**: Each repository maintains its own history
+- **Deployment Ready**: Website repository can be deployed independently
+- **Collaboration**: Different teams can work on different aspects
+
